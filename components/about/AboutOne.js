@@ -7,7 +7,7 @@ const AboutOne = () => {
         <>
             <section className="about-one pd-120-0-120" id="about">
                 <div className="about-one__img2 wow slideInRight" data-wow-delay="500ms">
-                    <img className="float-bob-x" src="/assets/images/about/about-v1-img2.png" alt="Decorative cleaning splash graphic" />
+                    <img className="float-bob-x" src="/assets/images/about/about-v1-img2.webp" alt="Decorative cleaning splash graphic" />
                 </div>
                 <div className="container">
                     <div className="row">
@@ -15,7 +15,7 @@ const AboutOne = () => {
                         <div className="col-xl-6">
                             <figure className="about-one__img clearfix">
                                 <div className="about-one__img-inner">
-                                    <img src="/assets/images/about/about-v1-img1.jpg" alt="Professional cleaner preparing a fresh and spotless interior" />
+                                    <img src="/assets/images/about/about-v1-img1.webp" alt="Professional cleaner preparing a fresh and spotless interior" />
                                 </div>
                                 <div className="experince-box">
                                     <p>10+ Years Experience</p>

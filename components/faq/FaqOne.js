@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import { FaqOneData } from '../../data/faq';
 
 const FAQ_GROUP_NAME = "faq-one-accrodion-1";
-const FAQ_SECTION_IMAGE = "/assets/images/resources/faq-img.jpg";
+const FAQ_SECTION_IMAGE = "/assets/images/resources/faq-img.webp";
 
 const FaqOne = () => {
 

@@ -35,7 +35,7 @@ const tabContentMap = {
             "Residential and commercial cleaning available",
             "Service tailored to your needs",
         ],
-        image: "/assets/images/resources/tab-v1-img.jpg",
+        image: "/assets/images/resources/tab-v1-img.webp",
     },
 
     flexible: {
@@ -50,7 +50,7 @@ const tabContentMap = {
             "Convenient booking process",
             "Service plans for homes and apartments",
         ],
-        image: "/assets/images/resources/tab-v2-img.jpg",
+        image: "/assets/images/resources/tab-v2-img.webp",
     },
 
     quality: {
@@ -65,7 +65,7 @@ const tabContentMap = {
             "Post-construction cleaning available",
             "Custom priorities based on your needs",
         ],
-        image: "/assets/images/resources/tab-v4-img.jpg",
+        image: "/assets/images/resources/tab-v4-img.webp",
     },
 
     trusted: {
@@ -80,7 +80,7 @@ const tabContentMap = {
             "Ideal for recurring maintenance cleaning",
             "Committed to your satisfaction",
         ],
-        image: "/assets/images/resources/tab-v3-img.jpg",
+        image: "/assets/images/resources/tab-v3-img.webp",
     },
 };
 

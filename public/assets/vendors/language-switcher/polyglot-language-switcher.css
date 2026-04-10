@@ -145,26 +145,26 @@
 
 
 #en {
-    background-image: url(../../assets/../vendors/language-switcher/en.png);
+    background-image: url(../../assets/../vendors/language-switcher/en.webp);
     background-image: none;
 }
 
 #fr {
-    background-image: url(../../assets/../vendors/language-switcher/fr.png);
+    background-image: url(../../assets/../vendors/language-switcher/fr.webp);
     background-image: none;
 }
 
 #de {
-    background-image: url(../../assets/../vendors/language-switcher/de.png);
+    background-image: url(../../assets/../vendors/language-switcher/de.webp);
     background-image: none;
 }
 
 #it {
-    background-image: url(../../assets/../vendors/language-switcher/it.png);
+    background-image: url(../../assets/../vendors/language-switcher/it.webp);
     background-image: none;
 }
 
 #es {
-    background-image: url(../../assets/../vendors/language-switcher/es.png);
+    background-image: url(../../assets/../vendors/language-switcher/es.webp);
     background-image: none;
 }

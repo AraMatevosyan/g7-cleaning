@@ -83,7 +83,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/assets/images/about/about-v1-img1.jpg",
+        url: "/assets/images/about/about-v1-img1.webp",
         width: 530,
         height: 570,
         alt: "G7 Cleaning LLC",
@@ -96,7 +96,7 @@ export const metadata = {
     title: "G7 Cleaning LLC | Cleaning Services",
     description:
         "Professional cleaning services for homes and offices. Book now.",
-    images: ["/assets/images/about/about-v1-img1.jpg"],
+    images: ["/assets/images/about/about-v1-img1.webp"],
   },
 
   icons: {

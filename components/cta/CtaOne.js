@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import BackgroundOne from '../../public/assets/images/backgrounds/cta-v1-bg.jpg';
+import BackgroundOne from '../../public/assets/images/backgrounds/cta-v1-bg.webp';
 import {SITE_CONFIG} from "../../shared/config/site";
 
 const CtaOne = () => {

@@ -2614,7 +2614,7 @@ div[class^="bubble-"] {
     height: 1px;
     width: 1px;
     position: absolute;
-    background: url(../images/icon/buble.png) no-repeat center center;
+    background: url(../images/icon/buble.webp) no-repeat center center;
     background-size: cover;
     border-radius: 50%;
     -webkit-transform: translateX(-50%);

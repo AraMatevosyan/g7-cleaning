@@ -1,7 +1,7 @@
 export const FaqOneData = [
     {
         id: 1,
-        image: "/assets/images/resources/faq-v1-img1.jpg",
+        image: "/assets/images/resources/faq-v1-img1.webp",
         alt: "Faq",
         heading: "Do you use eco-friendly cleaning products?",
         description:
@@ -12,7 +12,7 @@ export const FaqOneData = [
     },
     {
         id: 2,
-        image: "/assets/images/resources/faq-v1-img1.jpg",
+        image: "/assets/images/resources/faq-v1-img1.webp",
         alt: "Faq",
         heading: "How long does a cleaning service take?",
         description:
@@ -22,7 +22,7 @@ export const FaqOneData = [
     },
     {
         id: 3,
-        image: "/assets/images/resources/faq-v1-img1.jpg",
+        image: "/assets/images/resources/faq-v1-img1.webp",
         alt: "Faq",
         heading: "Do I need to be home during the cleaning?",
         description:
@@ -32,7 +32,7 @@ export const FaqOneData = [
     },
     {
         id: 4,
-        image: "/assets/images/resources/faq-v1-img1.jpg",
+        image: "/assets/images/resources/faq-v1-img1.webp",
         alt: "Faq",
         heading: "What is included in a standard cleaning?",
         description:
@@ -42,7 +42,7 @@ export const FaqOneData = [
     },
     {
         id: 5,
-        image: "/assets/images/resources/faq-v1-img1.jpg",
+        image: "/assets/images/resources/faq-v1-img1.webp",
         alt: "Faq",
         heading: "Do you bring your own cleaning supplies?",
         description:
