@@ -83,10 +83,10 @@ const HeroOne = () => {
 
     return (
         <>
-            <section className="main-slider-one">
+            <section className="main-slider-one" aria-labelledby="hero-heading">
                 <div className="main-slider-one__carousel owl-carousel owl-theme">
                     {heroSlides.map((slide) => (
-                        <div key={slide.id} className="main-slider-one__single">
+                        <article key={slide.id} className="main-slider-one__single">
                             <div className="top-shape"></div>
                             <div className="bottom-shape"></div>
                             <div
@@ -99,9 +99,15 @@ const HeroOne = () => {
                                         <p>{slide.tagline}</p>
                                     </div>
                                     <div className="title">
-                                        <h2>
-                                            {slide.title[0]} <br /> {slide.title[1]}
-                                        </h2>
+                                        {slide.id === 1 ? (
+                                            <h1 id="hero-heading">
+                                                {slide.title[0]} <br /> {slide.title[1]}
+                                            </h1>
+                                        ) : (
+                                            <h2>
+                                                {slide.title[0]} <br /> {slide.title[1]}
+                                            </h2>
+                                        )}
                                     </div>
                                     <div className="text">
                                         <p>
@@ -117,7 +123,7 @@ const HeroOne = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </article>
                     ))}
                 </div>
             </section>

@@ -48,8 +48,9 @@ function ContactLine({ line }) {
 
 const ContactInfo = () => {
     return (
-        <section className="contact-box" id="contact">
+        <section className="contact-box" id="contact" aria-labelledby="contact-info-heading">
             <div className="container">
+                <h2 id="contact-info-heading" className="visually-hidden">Contact information</h2>
                 <div className="row">
                     {contactItems.map((item) => (
                         <div
@@ -58,17 +59,17 @@ const ContactInfo = () => {
                             data-wow-delay={item.delay}
                             data-wow-duration={item.duration}
                         >
-                            <div className="contact-box__single text-center">
+                            <article className="contact-box__single text-center">
                                 <div className="contact-box__single-icon">
-                                    <span className={item.iconClassName}></span>
+                                    <span className={item.iconClassName} aria-hidden="true"></span>
                                 </div>
                                 <div className="contact-box__single-text">
-                                    <h2>{item.title}</h2>
+                                    <h3>{item.title}</h3>
                                     {item.lines.map((line, index) => (
                                         <ContactLine key={`${item.id}-${index}`} line={line} />
                                     ))}
                                 </div>
-                            </div>
+                            </article>
                         </div>
                     ))}
                 </div>

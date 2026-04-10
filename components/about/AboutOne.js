@@ -7,20 +7,20 @@ const AboutOne = () => {
         <>
             <section className="about-one pd-120-0-120" id="about">
                 <div className="about-one__img2 wow slideInRight" data-wow-delay="500ms">
-                    <img className="float-bob-x" src="/assets/images/about/about-v1-img2.png" alt="About" />
+                    <img className="float-bob-x" src="/assets/images/about/about-v1-img2.png" alt="Decorative cleaning splash graphic" />
                 </div>
                 <div className="container">
                     <div className="row">
                         {/* Start About One Img */}
                         <div className="col-xl-6">
-                            <div className="about-one__img clearfix">
+                            <figure className="about-one__img clearfix">
                                 <div className="about-one__img-inner">
-                                    <img src="/assets/images/about/about-v1-img1.jpg" alt="About" />
+                                    <img src="/assets/images/about/about-v1-img1.jpg" alt="Professional cleaner preparing a fresh and spotless interior" />
                                 </div>
                                 <div className="experince-box">
-                                    <h2>10 +Years Experince</h2>
+                                    <p>10+ Years Experience</p>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
                         {/* End About One Img */}
 
@@ -48,7 +48,7 @@ const AboutOne = () => {
                                     </p>
 
                                     <div className="about-one__content-list">
-                                        <ul>
+                                        <ul role="list">
                                             <li>
                                                 <p>Residential & commercial cleaning services</p>
                                             </li>

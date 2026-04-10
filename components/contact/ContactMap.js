@@ -10,6 +10,9 @@ const ContactMap = () => {
                 src={`https://www.google.com/maps?q=${encodeURIComponent(address)}&output=embed`}
                 className="contact-page-google-map__one"
                 allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Google Map showing G7 Cleaning service location"
             ></iframe>
         </section>
     )

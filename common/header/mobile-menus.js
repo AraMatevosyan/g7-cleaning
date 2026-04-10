@@ -3,8 +3,8 @@ import Link from "next/link";
 import menu_data from "./menu-data";
 
 const MobileMenus = ({onClose}) => (
-    <nav className="mean-nav">
-      <ul>
+    <nav className="mean-nav" aria-label="Mobile navigation">
+      <ul role="list">
         {menu_data.map((menu, i) => (
             <li key={i}>
               <Link onClick={onClose} href={menu.link}>{menu.title}</Link>

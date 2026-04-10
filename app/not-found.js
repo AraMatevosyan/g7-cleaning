@@ -5,14 +5,14 @@ import React from "react";
 export const metadata = buildPageMetadata("Error Page");
 
 const NotFound = () => (
-    <section className="error-page">
+    <section className="error-page" aria-labelledby="not-found-title">
         <div className="container">
             <div className="row">
                 <div className="col-xl-12">
                     <div className="error-page__wrapper text-center">
                         <div className="error-page__content">
-                            <h2>404</h2>
-                            <h3>Opps! Page Not Found</h3>
+                            <p>404</p>
+                            <h1 id="not-found-title">Oops! Page Not Found</h1>
                             <p>Sorry, but the page you are looking for does not exist.</p>
                             <div className="btn-box">
                                 <Link href="/" className="thm-btn">

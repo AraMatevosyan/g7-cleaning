@@ -8,6 +8,8 @@ const Logo = ({
     return (
         <svg xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width={width} height={height}
              viewBox="0 0 2500 2500"
+             role="img"
+             aria-label="G7 Cleaning logo"
         >
             <g fill={color} transform="translate(-800, -800)">
                     <text

@@ -13,7 +13,7 @@ const CtaOne = () => {
                         <div className="col-xl-12">
                             <div className="cta-one__inner">
                                 <div className="title">
-                                    <h2> Call us to Take an Extraordinary Service!</h2>
+                                    <h2>Call Us for Professional Cleaning Services</h2>
                                     <div className="number">
                                         <p>Call: <a href={SITE_CONFIG.phone.href}>{SITE_CONFIG.phone.number}</a></p>
                                     </div>

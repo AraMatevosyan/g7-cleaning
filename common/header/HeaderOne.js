@@ -31,6 +31,9 @@ const HeaderOne = () => {
     return (
         <>
             <header className="main-header clearfix">
+                <a href="#main-content" className="visually-hidden-focusable">
+                    Skip to main content
+                </a>
                 <div className="main-header__top clearfix">
                     <div className="container clearfix">
                         <div className="main-header__top-inner clearfix">
@@ -55,17 +58,17 @@ const HeaderOne = () => {
                                 </ul>
                             </div>
                             <div className="main-header__top-right">
-                                <div className="main-header__top-right-social">
-                                    <a href={SITE_CONFIG.social.facebook}><i className="fab fa-facebook"></i></a>
-                                    <a href={SITE_CONFIG.social.twitter}><i className="fab fa-twitter"></i></a>
-                                    <a href={SITE_CONFIG.social.pinterest}><i className="fab fa-pinterest-p"></i></a>
+                                <div className="main-header__top-right-social" aria-label="Social media links">
+                                    <a href={SITE_CONFIG.social.facebook} aria-label="Visit our Facebook page"><i className="fab fa-facebook" aria-hidden="true"></i></a>
+                                    <a href={SITE_CONFIG.social.twitter} aria-label="Visit our Twitter page"><i className="fab fa-twitter" aria-hidden="true"></i></a>
+                                    <a href={SITE_CONFIG.social.pinterest} aria-label="Visit our Pinterest page"><i className="fab fa-pinterest-p" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <nav className="main-menu clearfix">
+                <nav className="main-menu clearfix" aria-label="Primary navigation">
                     <div className="container clearfix">
                         <div className="main-menu-wrapper clearfix">
                             <div className="main-menu-wrapper__left">

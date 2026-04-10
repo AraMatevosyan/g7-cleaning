@@ -1928,7 +1928,7 @@ a.sc-hLseeU {
     transition-delay: 1200ms;
 }
 
-.main-slider-one__content .title h2 {
+.main-slider-one__content .title h2, h1 {
     color: #ffffff;
     font-size: 60px;
     line-height: 1.2em;
@@ -2964,7 +2964,7 @@ div[class^="bubble-"] {
     z-index: 5;
 }
 
-.about-one__img .experince-box h2 {
+.about-one__img .experince-box p {
     color: var(--thm-base);
     font-size: 24px;
     line-height: 29px;
@@ -2978,7 +2978,7 @@ div[class^="bubble-"] {
     transition: all 500ms ease;
 }
 
-.about-one__img:hover .experince-box h2 {
+.about-one__img:hover .experince-box p {
     letter-spacing: 0.05em;
 }
 

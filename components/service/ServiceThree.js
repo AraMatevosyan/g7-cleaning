@@ -24,15 +24,15 @@ const ServiceThree = () => {
                 <div className="row">
                     {ServiceThreeData.map((item, i) => (
                         <div key={i} className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay={item.delay}>
-                            <div className="services-three__single text-center">
+                            <article className="services-three__single text-center">
                                 <div className="services-three__single-icon">
-                                    <span className={item.icon}></span>
+                                    <span className={item.icon} aria-hidden="true"></span>
                                 </div>
                                 <div className="services-three__single-content">
                                     <h3>{item.heading}</h3>
                                     <p>{item.description}</p>
                                 </div>
-                            </div>
+                            </article>
                         </div>
                     ))}
                 </div>

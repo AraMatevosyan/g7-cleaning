@@ -23,7 +23,7 @@ export default function AppShell({ children }) {
   return (
     <div className="page-wrapper">
       <HeaderOne />
-      {children}
+      <main id="main-content">{children}</main>
       <FooterOne />
       <Scrollbar />
     </div>

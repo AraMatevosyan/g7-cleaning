@@ -476,7 +476,7 @@
         padding: 15px 0px 15px;
     }
 
-    .about-one__img .experince-box h2 {
+    .about-one__img .experince-box p {
         transform: rotate(0deg) translateX(0%);
         width: auto;
         margin: 0px 0px;

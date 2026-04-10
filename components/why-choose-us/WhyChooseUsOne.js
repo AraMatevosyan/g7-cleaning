@@ -141,10 +141,10 @@ const WhyChooseUsOne = () => {
                 </div>
 
                 <div className="tab-one__tabs tabs-box">
-                    <ul className="tab-buttons clearfix">
-                        {tabItems.map((tab) => (
-                            <li
-                                key={tab.id}
+                        <ul className="tab-buttons clearfix" role="list">
+                            {tabItems.map((tab) => (
+                                <li
+                                    key={tab.id}
                                 data-tab={`#${tab.id}`}
                                 className={`tab-btn ${tab.isActive ? "active-btn" : ""}`.trim()}
                             >
@@ -168,16 +168,16 @@ const WhyChooseUsOne = () => {
                                         <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12">
                                             <div className="tab-one__content">
                                                 <div className="title">
-                                                    <h2>
+                                                    <h3>
                                                         {content.title[0]} <br /> {content.title[1]}
-                                                    </h2>
+                                                    </h3>
                                                 </div>
 
                                                 <div className="text">
                                                     <p>{content.description}</p>
                                                 </div>
 
-                                                <ul className="tab-one__content-list">
+                                                <ul className="tab-one__content-list" role="list">
                                                     {content.listItems.map((item, index) => (
                                                         <li key={`${tab.id}-${index}`}>{item}</li>
                                                     ))}
@@ -187,7 +187,7 @@ const WhyChooseUsOne = () => {
 
                                         <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                                             <div className="tab-one__img">
-                                                <img src={content.image} alt={tab.label} />
+                                                <img src={content.image} alt={`${tab.label} cleaning service illustration`} />
                                             </div>
                                         </div>
                                     </div>

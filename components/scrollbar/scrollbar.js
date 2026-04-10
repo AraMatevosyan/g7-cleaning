@@ -8,8 +8,12 @@ import {ScrollToTopHandler} from "../../utils/utils";
 const Scrollbar = () => (
     <div className="col-lg-12">
         <div className="header-menu">
-            <ul className="smothscroll">
-                <Link onClick={ScrollToTopHandler} href='/'><FaAngleUp /></Link>
+            <ul className="smothscroll" role="list">
+                <li>
+                    <Link onClick={ScrollToTopHandler} href='/' aria-label="Scroll to top">
+                        <FaAngleUp aria-hidden="true" />
+                    </Link>
+                </li>
             </ul>
         </div>
     </div>

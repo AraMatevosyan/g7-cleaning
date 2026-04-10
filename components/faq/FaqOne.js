@@ -71,7 +71,7 @@ const FaqOne = () => {
                                 <div className="faq-one__faq">
                                     <div className="accrodion-grp faq-one-accrodion" data-grp-name={FAQ_GROUP_NAME}>
                                         {FaqOneData.map((item) => (
-                                            <div
+                                            <article
                                                 key={item.id}
                                                 className={`accrodion wow fadeInUp ${item.open || ""}`.trim()}
                                                 data-wow-delay={item.delay}
@@ -80,7 +80,7 @@ const FaqOne = () => {
                                                 <div className="accrodion-title">
                                                     <div className="accrodion-title-inner">
                                                         <div className="icon">
-                                                            <span className="icon-maps-and-flags"></span>
+                                                            <span className="icon-maps-and-flags" aria-hidden="true"></span>
                                                         </div>
                                                         <div className="text">
                                                             <h4>{item.heading}</h4>
@@ -90,14 +90,14 @@ const FaqOne = () => {
                                                 <div className="accrodion-content">
                                                     <div className="inner">
                                                         <div className="img-box">
-                                                            <img src={item.image} alt={item.alt} />
+                                                            <img src={item.image} alt={`${item.heading} illustration`} />
                                                         </div>
                                                         <div className="text">
                                                             <p>{item.description}</p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </article>
                                         ))}
                                     </div>
                                 </div>
@@ -105,7 +105,7 @@ const FaqOne = () => {
                         </div>
                         <div className="col-xl-5">
                             <div className="faq-one__img">
-                                <img src={FAQ_SECTION_IMAGE} alt="FAQ" />
+                                <img src={FAQ_SECTION_IMAGE} alt="Customer support and cleaning consultation illustration" />
                             </div>
                         </div>
                     </div>
