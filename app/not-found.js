@@ -15,7 +15,7 @@ const NotFound = () => (
                             <h3>Opps! Page Not Found</h3>
                             <p>Sorry, but the page you are looking for does not exist.</p>
                             <div className="btn-box">
-                                <Link href="/" class="thm-btn">
+                                <Link href="/" className="thm-btn">
                                     <span>Go To Home</span>
                                     <div className="liquid"></div>
                                 </Link>

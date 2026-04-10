@@ -3,8 +3,8 @@ import { ServiceThreeData } from '../../data/service';
 
 const ServiceThree = () => {
     return (
-        <section class="services-three" id="service">
-            <div class="container">
+        <section className="services-three" id="service">
+            <div className="container">
                 <div className="section-title__style2">
                     <div className="section-title">
                         <span className="section-title__tagline">Our Services</span>
@@ -21,14 +21,14 @@ const ServiceThree = () => {
                         </p>
                     </div>
                 </div>
-                <div class="row">
+                <div className="row">
                     {ServiceThreeData.map((item, i) => (
-                        <div key={i} class="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay={item.delay}>
-                            <div class="services-three__single text-center">
-                                <div class="services-three__single-icon">
-                                    <span class={item.icon}></span>
+                        <div key={i} className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay={item.delay}>
+                            <div className="services-three__single text-center">
+                                <div className="services-three__single-icon">
+                                    <span className={item.icon}></span>
                                 </div>
-                                <div class="services-three__single-content">
+                                <div className="services-three__single-content">
                                     <h3>{item.heading}</h3>
                                     <p>{item.description}</p>
                                 </div>
