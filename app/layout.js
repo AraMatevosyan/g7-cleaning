@@ -1,6 +1,7 @@
 import Script from "next/script";
 import AppShell from "../components/layout/AppShell";
 import "./globals.css";
+import PageLoader from "../common/page-loader/PageLoader";
 
 const ASSET_ROOT = "/assets";
 
@@ -124,6 +125,7 @@ export default function RootLayout({ children }) {
         <ExternalScripts />
       </head>
       <body>
+        <PageLoader />
         <AppShell>{children}</AppShell>
       </body>
     </html>

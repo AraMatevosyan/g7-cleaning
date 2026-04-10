@@ -10367,3 +10367,65 @@ ul.smothscroll a:hover {
         line-height: 25px;
     }
 }
+
+.page-loader {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--thm-base);
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+
+.page-loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.page-loader__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.page-loader__dots {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.page-loader__dots span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    animation: loader-bounce 1.2s infinite ease-in-out;
+}
+
+.page-loader__dots span:nth-child(2) {
+    animation-delay: 0.15s;
+}
+
+.page-loader__dots span:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+@keyframes loader-bounce {
+    0%,
+    80%,
+    100% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+
+    40% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
