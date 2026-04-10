@@ -10,22 +10,25 @@ import Logo from "../Logo/Logo";
 const Sidebar = ({isActive, setIsActive}) => {
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth >= 992) {
+            if (window.innerWidth >= 1200 && isActive) {
                 setIsActive(false);
             }
         };
 
-        handleResize(); // при маунте
+        handleResize();
         window.addEventListener("resize", handleResize);
 
         return () => {
             window.removeEventListener("resize", handleResize);
         };
-    }, [setIsActive]);
+    }, [isActive, setIsActive]);
 
-    if (typeof window !== "undefined" && window.innerWidth >= 992) {
-        return null;
-    }
+    useEffect(() => {
+        document.body.style.overflow = isActive ? "hidden" : "";
+        return () => {
+            document.body.style.overflow = "";
+        };
+    }, [isActive]);
 
     return (
         <>

@@ -118,10 +118,13 @@ function ExternalScripts() {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head><ExternalStylesheets /></head>
+      <head>
+        <title>G7 Cleaning LLC | Professional Cleaning Services in California</title>
+        <ExternalStylesheets />
+        <ExternalScripts />
+      </head>
       <body>
         <AppShell>{children}</AppShell>
-        <ExternalScripts />
       </body>
     </html>
   );
