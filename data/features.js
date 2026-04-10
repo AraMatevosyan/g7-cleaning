@@ -1,0 +1,58 @@
+
+// Pricing One Data
+export const FeaturesOneData = [
+    {
+        id: 1,
+        icon: "icon-house-1",
+        heading: "House Cleaning",
+        description: "We provide janitorial and this specialized is services.",
+        link: "/bedroom-cleaning",
+        delay: "00ms",
+        duration: "1500ms",
+    },
+    {
+        id: 2,
+        icon: "icon-house-2",
+        heading: "Office Cleaning",
+        description: "We provide janitorial and this specialized is services.",
+        link: "/bedroom-cleaning",
+        delay: "200ms",
+        duration: "1500ms",
+    },
+    {
+        id: 3,
+        icon: "icon-carpet-cleaner",
+        heading: "Floor Cleaning",
+        description: "We provide janitorial and this specialized is services.",
+        link: "/bedroom-cleaning",
+        delay: "400ms",
+        duration: "1500ms",
+    },
+    {
+        id: 4,
+        icon: "icon-electric-vehicle",
+        heading: "Car Cleaning",
+        description: "We provide janitorial and this specialized is services.",
+        link: "/bedroom-cleaning",
+        delay: "00ms",
+        duration: "1500ms",
+    },
+    {
+        id: 5,
+        icon: "icon-window-cleaning",
+        heading: "Window Cleaning",
+        description: "We provide janitorial and this specialized is services.",
+        link: "/bedroom-cleaning",
+        delay: "200ms",
+        duration: "1500ms",
+    },
+    {
+        id: 6,
+        icon: "icon-house",
+        heading: "Bedroom Cleaning",
+        description: "We provide janitorial and this specialized is services.",
+        link: "/bedroom-cleaning",
+        delay: "400ms",
+        duration: "1500ms",
+    },
+];

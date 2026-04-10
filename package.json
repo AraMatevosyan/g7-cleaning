@@ -1,0 +1,23 @@
+{
+  "name": "washup",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "eslint-config-next": "^16.2.3",
+    "next": "^16.2.3",
+    "react": "^19.2.5",
+    "react-bootstrap": "^2.8.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "^19.2.5",
+    "react-icons": "^4.10.1",
+    "swiper": "12.1.2",
+    "wowjs": "^1.1.3"
+  }
+}
