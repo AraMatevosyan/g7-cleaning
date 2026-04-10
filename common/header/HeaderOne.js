@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import NavMenu from './NavMenu';
 import Sidebar from './sidebar';
 import Link from 'next/link';
@@ -9,23 +9,6 @@ import {ScrollToTopHandler} from "../../utils/utils";
 import Logo from "../Logo/Logo";
 
 const HeaderOne = () => {
-    useEffect(() => {
-
-        $('select').niceSelect();
-
-        if ($("#polyglot-language-options").length) {
-            $('#polyglotLanguageSwitcher').polyglotLanguageSwitcher({
-              effect: 'slide',
-              animSpeed: 500,
-              testMode: true,
-              onChange: function (evt) {
-                alert("The selected language is: " + evt.selectedItem);
-              }
-        
-            });
-        }
-            
-    }, []);
     const [isActive, setIsActive] = useState(false);
 
     return (

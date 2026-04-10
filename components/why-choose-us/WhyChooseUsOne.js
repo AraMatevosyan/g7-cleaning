@@ -115,16 +115,6 @@ const WhyChooseUsOne = () => {
             });
         }
 
-        if ($(".video-popup").length) {
-            $(".video-popup").magnificPopup({
-                type: "iframe",
-                mainClass: "mfp-fade",
-                removalDelay: 160,
-                preloader: true,
-                fixedContentPos: false,
-            });
-        }
-
         return () => {
             $(".tabs-box .tab-buttons .tab-btn").off("click");
         };

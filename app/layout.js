@@ -31,27 +31,8 @@ const vendorStylesheets = [
 
 const vendorScripts = [
   ...createAssetPaths("vendors/jquery", ["jquery-3.6.0.min.js"]),
-  ...createAssetPaths("vendors/jquery-appear", ["jquery.appear.min.js"]),
-  ...createAssetPaths("vendors/jquery-circle-progress", ["jquery.circle-progress.min.js"]),
-  ...createAssetPaths("vendors/jquery-magnific-popup", ["jquery.magnific-popup.min.js"]),
-  ...createAssetPaths("vendors/jquery-validate", ["jquery.validate.min.js"]),
-  ...createAssetPaths("vendors/nouislider", ["nouislider.min.js"]),
-  ...createAssetPaths("vendors/odometer", ["odometer.min.js"]),
-  ...createAssetPaths("vendors/swiper", ["swiper.min.js"]),
-  ...createAssetPaths("vendors/tiny-slider", ["tiny-slider.min.js"]),
-  ...createAssetPaths("vendors/wnumb", ["wNumb.min.js"]),
   ...createAssetPaths("vendors/wow", ["wow.js"]),
-  ...createAssetPaths("vendors/color-switcher", ["color-switcher.min.js"]),
-  ...createAssetPaths("vendors/isotope", ["isotope.js"]),
-  ...createAssetPaths("vendors/countdown", ["countdown.min.js"]),
   ...createAssetPaths("vendors/owl-carousel", ["owl.carousel.min.js"]),
-  ...createAssetPaths("vendors/bxslider", ["jquery.bxslider.min.js"]),
-  ...createAssetPaths("vendors/vegas", ["vegas.min.js"]),
-  ...createAssetPaths("vendors/jquery-ui", ["jquery-ui.js"]),
-  ...createAssetPaths("vendors/timepicker", ["timePicker.js"]),
-  ...createAssetPaths("vendors/nice-select", ["jquery.nice-select.min.js"]),
-  ...createAssetPaths("vendors/simple-parallax", ["simple-parallax.js"]),
-  ...createAssetPaths("vendors/language-switcher", ["jquery.polyglot.language.switcher.js"]),
 ];
 
 export const metadata = {
